@@ -27,7 +27,7 @@ body{
 }
 .contenedor{
     margin:0 auto;
-    width: 60%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ body{
 }
 .contenido{
     
-    width: 40%;
+    width: 45%;
     height: 230px;
     padding:20px;
 }
@@ -60,4 +60,27 @@ body{
     text-decoration: underline;
     border: none;
     cursor: pointer;
+}
+@media (max-width: 1332px) {
+    .header{
+        width: 100%;
+    }
+    .contenedor{
+        display:flex;
+        width:100%;
+        flex-direction:column-reverse;
+        margin-top:100px;
+        height: 650px;
+    }
+    .contenido{
+        width:80%;
+        min-height:100px;
+        text-align: center;
+    }
+    .parrafo{
+        text-align:justify;
+    }
+    
+
+
 }
